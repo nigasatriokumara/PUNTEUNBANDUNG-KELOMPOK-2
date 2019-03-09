@@ -15,6 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+<<<<<<< HEAD
             android:name=".AdminLoginActivity"
             android:label="@string/title_activity_login">
         </activity>
@@ -28,6 +29,10 @@
         </activity>
         <activity android:name=".AdminRegisterActivity"
             android:parentActivityName=".AdminLoginActivity"/>
+=======
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"></activity>
+>>>>>>> 3300684bb6443eee475b0dcf10d07ce44df7ae85
     </application>
 
 </manifest>
