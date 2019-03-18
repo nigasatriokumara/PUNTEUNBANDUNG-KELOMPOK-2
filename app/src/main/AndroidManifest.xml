@@ -15,6 +15,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 43f239233dbfd43d4d31d268c0eeef30b0396223
             android:name=".AdminLoginActivity"
             android:label="@string/title_activity_login">
         </activity>
@@ -26,10 +30,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".RegisterActivity"
             android:parentActivityName=".LoginActivity"/>
         <activity android:name=".AdminRegisterActivity"
             android:parentActivityName=".AdminLoginActivity"/>
+=======
+        <activity android:name=".AdminRegisterActivity"
+            android:parentActivityName=".AdminLoginActivity"/>
+=======
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"></activity>
+>>>>>>> 3300684bb6443eee475b0dcf10d07ce44df7ae85
+>>>>>>> 43f239233dbfd43d4d31d268c0eeef30b0396223
     </application>
 
 </manifest>
