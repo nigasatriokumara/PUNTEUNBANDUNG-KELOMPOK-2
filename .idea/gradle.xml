@@ -3,11 +3,34 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 43f239233dbfd43d4d31d268c0eeef30b0396223
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+          </set>
+        </option>
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> d4597ab5b61af60e0135fb1887a9ef89a98351d8
         <compositeConfiguration>
           <compositeBuild compositeDefinitionSource="SCRIPT" />
         </compositeConfiguration>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+<<<<<<< HEAD
+=======
+>>>>>>> 3300684bb6443eee475b0dcf10d07ce44df7ae85
+>>>>>>> 43f239233dbfd43d4d31d268c0eeef30b0396223
+>>>>>>> d4597ab5b61af60e0135fb1887a9ef89a98351d8
         <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>

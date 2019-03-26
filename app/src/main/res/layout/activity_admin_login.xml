@@ -7,7 +7,14 @@
     android:layout_height="match_parent"
     android:background="#ff531a">
 
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 43f239233dbfd43d4d31d268c0eeef30b0396223
+>>>>>>> d4597ab5b61af60e0135fb1887a9ef89a98351d8
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"

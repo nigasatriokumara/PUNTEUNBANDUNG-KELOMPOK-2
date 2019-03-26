@@ -1,9 +1,30 @@
 package apps.sinterklas.punteunbandung;
 
+<<<<<<< HEAD
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
 import android.content.Intent;
+=======
+<<<<<<< HEAD
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
+
+public class LoginActivity extends AppCompatActivity {
+    private Button userregister;
+    private Button loginasadmin;
+=======
+import android.animation.Animator;
+import android.animation.AnimatorListenerAdapter;
+import android.annotation.TargetApi;
+<<<<<<< HEAD
+import android.content.Intent;
+=======
+>>>>>>> 3300684bb6443eee475b0dcf10d07ce44df7ae85
+>>>>>>> d4597ab5b61af60e0135fb1887a9ef89a98351d8
 import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
@@ -33,14 +54,24 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
+<<<<<<< HEAD
 import apps.sinterklas.punteunbandung.Activities.AdminLoginActivity;
 
+=======
+>>>>>>> d4597ab5b61af60e0135fb1887a9ef89a98351d8
 import static android.Manifest.permission.READ_CONTACTS;
 
 /**
  * A login screen that offers login via email/password.
  */
 public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<Cursor> {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3300684bb6443eee475b0dcf10d07ce44df7ae85
+>>>>>>> d4597ab5b61af60e0135fb1887a9ef89a98351d8
     /**
      * Id to identity READ_CONTACTS permission request.
      */
@@ -48,7 +79,11 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
     /**
      * A dummy authentication store containing known user names and passwords.
+<<<<<<< HEAD
 
+=======
+     * TODO: remove after connecting to a real authentication system.
+>>>>>>> d4597ab5b61af60e0135fb1887a9ef89a98351d8
      */
     private static final String[] DUMMY_CREDENTIALS = new String[]{
             "foo@example.com:hello", "bar@example.com:world"
@@ -63,17 +98,56 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     private EditText mPasswordView;
     private View mProgressView;
     private View mLoginFormView;
+<<<<<<< HEAD
     private Button registerasadmin;
     private Button registeruser;
+=======
+<<<<<<< HEAD
+    private Button registerasadmin;
+
+=======
+>>>>>>> 3300684bb6443eee475b0dcf10d07ce44df7ae85
+>>>>>>> 43f239233dbfd43d4d31d268c0eeef30b0396223
+>>>>>>> d4597ab5b61af60e0135fb1887a9ef89a98351d8
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        setContentView(R.layout.activity_login);
+
+        loginasadmin = (Button)findViewById(R.id.button2);
+        loginasadmin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent a = new Intent (getApplicationContext(), AdminLoginActivity.class);
+                startActivity(a);
+            }
+        });
+
+        userregister = (Button)findViewById(R.id.button4);
+        userregister.setOnClickListener(new View.OnClickListener()    {
+
+            public void onClick(View argo) {
+                Intent i = new Intent (getApplicationContext(), RegisterActivity.class);
+                startActivity(i);
+            }
+        });
+    }
+}
+=======
+>>>>>>> d4597ab5b61af60e0135fb1887a9ef89a98351d8
         setContentView(R.layout.activity_login2);
         // Set up the login form.
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
         populateAutoComplete();
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d4597ab5b61af60e0135fb1887a9ef89a98351d8
         registerasadmin = (Button)findViewById(R.id.admin_login_button);
         registerasadmin.setOnClickListener(new View.OnClickListener()  {
 
@@ -83,6 +157,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             }
         });
 
+<<<<<<< HEAD
         registeruser = (Button)findViewById(R.id.email_register_button);
         registeruser.setOnClickListener(new View.OnClickListener()  {
 
@@ -92,6 +167,10 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             }
             });
 
+=======
+=======
+>>>>>>> 3300684bb6443eee475b0dcf10d07ce44df7ae85
+>>>>>>> d4597ab5b61af60e0135fb1887a9ef89a98351d8
         mPasswordView = (EditText) findViewById(R.id.password);
         mPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
@@ -370,3 +449,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     }
 }
 
+<<<<<<< HEAD
+=======
+>>>>>>> 43f239233dbfd43d4d31d268c0eeef30b0396223
+>>>>>>> d4597ab5b61af60e0135fb1887a9ef89a98351d8
