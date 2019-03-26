@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "320765914621",
+    "firebase_url": "https://punteun-bandung-2.firebaseio.com",
+    "project_id": "punteun-bandung-2",
+    "storage_bucket": "punteun-bandung-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320765914621:android:16e746f33e848fa9",
+        "android_client_info": {
+          "package_name": "apps.sinterklas.punteunbandung"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320765914621-037ae8aa77imqie6scel5gp4r8qsv3e2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "apps.sinterklas.punteunbandung",
+            "certificate_hash": "8fb63d3fb8d806ba246f8b93410b80ddc14b9ea7"
+          }
+        },
+        {
+          "client_id": "320765914621-ae2i9b3sqcft019if7p0i419u9ido9ev.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "apps.sinterklas.punteunbandung",
+            "certificate_hash": "cc50e3fd1565ddf46a7331b00e38f4708869dce7"
+          }
+        },
+        {
+          "client_id": "320765914621-ar71if0jn510ag2fdn0u9vtbv5ua4ti0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASJ4X7cXo8OddToMZv0JdIcB3j6BtrPMc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320765914621-ar71if0jn510ag2fdn0u9vtbv5ua4ti0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
