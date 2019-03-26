@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "426587744687",
+    "firebase_url": "https://punteun-bandung-kelompok-2.firebaseio.com",
+    "project_id": "punteun-bandung-kelompok-2",
+    "storage_bucket": "punteun-bandung-kelompok-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426587744687:android:16e746f33e848fa9",
+        "android_client_info": {
+          "package_name": "apps.sinterklas.punteunbandung"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426587744687-75ugh2j42im59rombr6mg192qt2dgu9a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "apps.sinterklas.punteunbandung",
+            "certificate_hash": "cc50e3fd1565ddf46a7331b00e38f4708869dce7"
+          }
+        },
+        {
+          "client_id": "426587744687-372buim8mtrn7rb53cp3qd1i9e2apupo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDbHMl90Lz3LkJ7skoMXvT1cesoCGsYcg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426587744687-372buim8mtrn7rb53cp3qd1i9e2apupo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
